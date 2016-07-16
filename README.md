@@ -4,7 +4,7 @@ A command line utility to easily cd into directories or open files.
 # Install
 
 ```
-$ npm install -g tocli # Downloads the to package
+$ npm install -g to-cli # Downloads the to package
 $ to setup # Sets up the to alias
 ```
 
