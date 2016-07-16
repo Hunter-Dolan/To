@@ -1,6 +1,6 @@
 {
   "name": "to-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "bin" : {
     "to" : "bin/to",
     "to-agent": "bin/to-agent.js"
