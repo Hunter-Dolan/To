@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [[ $1 == "setup" || $1 == "--list" || -z $1 ]]; then
+  /usr/bin/env to-agent $1 $2;
+else
+  command=`/usr/bin/env to-agent $1 $2`;
+  eval $command;
+fi

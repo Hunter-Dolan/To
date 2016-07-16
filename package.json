@@ -1,0 +1,23 @@
+{
+  "name": "to-cli",
+  "version": "0.0.1",
+  "bin" : {
+    "to" : "bin/to",
+    "to-agent": "bin/to-agent.js"
+  },
+  "description": "A commandline utility to easily cd into directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hunter-Dolan/To.git"
+  },
+  "author": "Hunter Dolan",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Hunter-Dolan/To/issues"
+  },
+  "homepage": "https://github.com/Hunter-Dolan/To"
+}
