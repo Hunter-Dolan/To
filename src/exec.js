@@ -6,7 +6,7 @@ module.exports = {
   },
 
   cd: function(path) {
-    console.log('cd', path);
+    console.log('cd', path.split(' ').join('\\ '));
   },
 
   edit: function(path) {
